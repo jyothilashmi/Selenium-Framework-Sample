@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="40" started-at="2020-11-15T06:05:08Z" finished-at="2020-11-15T06:05:08Z">
+    <groups>
+    </groups>
+    <test name="Test(failed)" duration-ms="40" started-at="2020-11-15T06:05:08Z" finished-at="2020-11-15T06:05:08Z">
+      <class name="rough.testRetry">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:rough.testRetry@29ee9faa]" name="Test2" duration-ms="15" started-at="2020-11-15T11:35:08Z" finished-at="2020-11-15T11:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- rough.testRetry -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

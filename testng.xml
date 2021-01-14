@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite">
-  <test name="Test Suite"> 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="rough.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test">
     <classes>
-      <class name="flows.Sorting"/>
+      <class name="rough.testRetry"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
